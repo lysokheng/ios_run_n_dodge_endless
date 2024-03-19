@@ -1,16 +1,9 @@
-# ios_ios_run_n_dodge_h8_endless
+# Run 'n' Dodge: H8 Endless
 
-A new Flutter project.
+## Short Description
 
-## Getting Started
+Dodge 'n' Dash: Endless Fun
 
-This project is a starting point for a Flutter application.
+## Full Description
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Get ready for an endless thrill in  Run 'n' Dodge: H8 Endless! Tap to jump and dodge enemies from the right. With only 3 lives, how far can you go? Test your reflexes in this fast-paced runner for an ultimate challenge!
