@@ -1,4 +1,4 @@
-# Run 'n' Dodge: H8 Endless
+# Run 'n' Dodge: Endless
 
 ## Short Description
 

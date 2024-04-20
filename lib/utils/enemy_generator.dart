@@ -4,7 +4,7 @@ import 'package:flame/components.dart';
 import 'package:ios_run_n_dodge_h8_endless/game/enemy.dart';
 import 'package:ios_run_n_dodge_h8_endless/game/game.dart';
 
-class EnemyGenerator extends Component with HasGameReference<TinyGame> {
+class EnemyGenerator extends Component with HasGameReference<MainGame> {
   late Random _rand;
   late Timer _timer;
   static int spawnLevel = 0;

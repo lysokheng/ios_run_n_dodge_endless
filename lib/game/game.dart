@@ -9,7 +9,7 @@ import 'package:ios_run_n_dodge_h8_endless/game/boy.dart';
 import 'package:ios_run_n_dodge_h8_endless/main.dart';
 import 'package:ios_run_n_dodge_h8_endless/utils/enemy_generator.dart';
 
-class TinyGame extends FlameGame with TapDetector, HasCollisionDetection {
+class MainGame extends FlameGame with TapDetector, HasCollisionDetection {
   late Boy boy;
   late ParallaxComponent parallaxComponent;
   late EnemyGenerator enemyGenerator;
@@ -20,7 +20,7 @@ class TinyGame extends FlameGame with TapDetector, HasCollisionDetection {
   bool isPaused = false;
   double currentSpeed = .2;
 
-  TinyGame() {
+  MainGame() {
     enemyGenerator = EnemyGenerator();
     scoreComponent = TextComponent();
     scoreTitle = TextComponent();

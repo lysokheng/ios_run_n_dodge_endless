@@ -5,7 +5,7 @@ import 'package:ios_run_n_dodge_h8_endless/game/game.dart';
 class Lives extends StatelessWidget {
   const Lives({super.key, required this.gameRef});
 
-  final TinyGame gameRef;
+  final MainGame gameRef;
 
   @override
   Widget build(BuildContext context) {

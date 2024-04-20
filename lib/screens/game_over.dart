@@ -11,7 +11,7 @@ import 'package:ios_run_n_dodge_h8_endless/utils/enemy_generator.dart';
 import 'package:ios_run_n_dodge_h8_endless/views/home_screen.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
-Widget gameOver(BuildContext context, TinyGame gameref) {
+Widget gameOver(BuildContext context, MainGame gameref) {
   return Center(
     child: Padding(
       padding: EdgeInsets.all(gameref.size.y - gameref.size.y * 90 / 100),

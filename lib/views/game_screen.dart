@@ -22,7 +22,7 @@ class GameScreen extends StatefulWidget {
 class _GameScreenState extends State<GameScreen>
     with SingleTickerProviderStateMixin {
   late AnimationController _animationController;
-  late TinyGame _game;
+  late MainGame _game;
 
   @override
   void initState() {
@@ -30,7 +30,7 @@ class _GameScreenState extends State<GameScreen>
 
     FlameAudio.bgm.initialize();
     FlameAudio.bgm.play('music.mp3', volume: 0.5);
-    _game = TinyGame();
+    _game = MainGame();
     _animationController = AnimationController(
         vsync: this, duration: const Duration(milliseconds: 500));
   }
